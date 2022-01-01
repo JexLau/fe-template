@@ -1,0 +1,33 @@
+{
+  "name": "vue3-tpl",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@element-plus/utils": "^0.0.5",
+    "@fortawesome/fontawesome-svg-core": "^1.2.26-2",
+    "@fortawesome/free-solid-svg-icons": "^5.12.0-2",
+    "@fortawesome/vue-fontawesome": "^3.0.0-4",
+    "axios-mapper": "^0.5.9",
+    "cross-env": "^7.0.3",
+    "element-plus": "^1.1.0-beta.16",
+    "less": "^4.1.1",
+    "mockjs": "^1.1.0",
+    "vue": "^3.2.13",
+    "vue-i18n": "^9.2.0-beta.9",
+    "vue-router": "^4.0.11",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^16.10.1",
+    "@vitejs/plugin-vue": "^1.9.0",
+    "@vitejs/plugin-vue-jsx": "^1.1.8",
+    "typescript": "^4.4.3",
+    "vite": "^2.5.10",
+    "vite-plugin-mock": "^2.9.6",
+    "vue-tsc": "^0.3.0"
+  }
+}
